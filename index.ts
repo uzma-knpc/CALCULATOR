@@ -1,6 +1,6 @@
 #! /usr/bin/env node
-console.log("***CMD CALCULATOR***")
-console.log("____________________\n")
+console.log("***Command Line Application***")
+console.log("_______________________________\n")
 
 import inquirer from "inquirer";
 import Choices from "inquirer/lib/objects/choices.js";
@@ -26,4 +26,4 @@ console.log(`Your Answer is "${answer.firstnumber} * ${answer.SecondNumber} = ${
 } else {
   console.log("Please Select Valid Operater for performinig righ operation")
 }
-
+console.log("The End")

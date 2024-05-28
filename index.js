@@ -1,6 +1,6 @@
 #! /usr/bin/env node
-console.log("***CMD CALCULATOR***");
-console.log("____________________\n");
+console.log("***Command Line Application***");
+console.log("_______________________________\n");
 import inquirer from "inquirer";
 const answer = await inquirer.prompt([
     { message: "Entre First number", type: "number", name: "firstnumber" },
@@ -28,3 +28,4 @@ else if (answer.operator === "Division") {
 else {
     console.log("Please Select Valid Operater for performinig righ operation");
 }
+console.log("The End");
